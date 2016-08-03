@@ -28,7 +28,6 @@ import java.util.List;
  * Created by ZuoShu on 16/8/3.
  */
 public class ImSdk {
-    private static ImSdk mInstance;
     private RequestCallback<LoginInfo> mLoginCallback;
     protected AudioRecorder mAudioRecorder;
     private boolean mStarted = false;
